@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "test": "jest --bail"
+    "test": "gauge run gauge-test/specs/"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
